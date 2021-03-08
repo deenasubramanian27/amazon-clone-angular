@@ -1,0 +1,10 @@
+.banner{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: -1;
+    /*The z-index property specifies the stack order of an element.
+An element with greater stack order is always in front of an element with a lower stack order.
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).
+*/
+    margin-bottom: -200px;
+}

@@ -1,0 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="products">
+    <div class="product" *ngFor="let p of products">
+        <mat-card>
+            <p>{{p.title}}</p>
+            <p>$<strong>{{p.price}}</strong></p>
+            <img src={{p.image}} alt="products" class="product_images">
+            <button (click)="addToCart(p)">Add to Cart</button>
+        </mat-card>
+    </div>
+
+
+</div>
